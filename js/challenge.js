@@ -50,7 +50,6 @@ minus.addEventListener("click",function (){
     counterValue--;
     counter.innerText=counterValue;
     });
-    
 // plus button 
 plus.addEventListener("click",function (){
     let counterValue = parseInt(counter.innerText);
@@ -79,6 +78,7 @@ submit.addEventListener("click", function(event) {
     let newComment = document.getElementById("comment-input");
     // let buttonList = document.createElement("button");
     let liForComments = document.createElement("li");
+    // liForComments.appendChild(document.createTextNode(newComment.value + " "));
     liForComments.innerText = newComment.value
     ulForComments.append(liForComments);
 });
