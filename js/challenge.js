@@ -50,6 +50,7 @@ minus.addEventListener("click",function (){
     counterValue--;
     counter.innerText=counterValue;
     });
+    
 // plus button 
 plus.addEventListener("click",function (){
     let counterValue = parseInt(counter.innerText);
