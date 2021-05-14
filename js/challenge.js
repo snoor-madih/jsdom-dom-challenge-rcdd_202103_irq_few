@@ -74,11 +74,8 @@ submit.addEventListener("click", function(event) {
     let commentList = document.getElementById("list");
     let ulForComments = document.createElement("ul");
     commentList.append(ulForComments);
-
     let newComment = document.getElementById("comment-input");
-    // let buttonList = document.createElement("button");
     let liForComments = document.createElement("li");
-    // liForComments.appendChild(document.createTextNode(newComment.value + " "));
     liForComments.innerText = newComment.value
     ulForComments.append(liForComments);
 });
